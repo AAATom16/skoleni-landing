@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FVEpakety – Pracovní pakety pro montáž fotovoltaiky</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">⚡</span>
+        <span>FVE<span class="logo-accent">pakety</span></span>
+      </a>
+      <nav class="nav-desktop">
+        <a href="#obsah">Obsah balíčku</a>
+        <a href="#vyhody">Výhody</a>
+        <a href="#prokoho">Pro koho</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <div class="header-cta">
+        <a href="#kontakt" class="btn btn-primary btn-sm">Chci nabídku</a>
+        <button class="menu-btn" aria-label="Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#obsah">Obsah balíčku</a>
+      <a href="#vyhody">Výhody</a>
+      <a href="#prokoho">Pro koho</a>
+      <a href="#faq">FAQ</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#kontakt" class="btn btn-primary">Chci nabídku</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="badge">B2B montážní materiál pro FVE</span>
+          <h1>Pracovní pakety pro montáž <span class="highlight">fotovoltaiky</span><br>– rychle, přehledně, bez zdržení</h1>
+          <p class="hero-desc">Připravené balíčky montážního materiálu a příslušenství. <strong>Pošleme nabídku do 24 hodin.</strong></p>
+          
+          <ul class="features-list">
+            <li><span class="feature-icon">📦</span> Kompletní balíček pro typickou instalaci</li>
+            <li><span class="feature-icon">🚚</span> Rychlá dostupnost a doprava</li>
+            <li><span class="feature-icon">💰</span> B2B ceny a fakturace</li>
+            <li><span class="feature-icon">✓</span> Ověřené komponenty</li>
+          </ul>
+
+          <div class="hero-buttons">
+            <a href="#kontakt" class="btn btn-primary">Získat nabídku →</a>
+            <a href="#obsah" class="btn btn-secondary">Zobrazit obsah balíčku ↓</a>
+          </div>
+        </div>
+
+        <div class="quick-form-card">
+          <h3>Rychlá poptávka</h3>
+          <p class="form-subtitle">Vyplňte kontakt a ozveme se do 24 h.</p>
+          <form class="quick-form">
+            <div class="form-group">
+              <label for="name">Jméno a příjmení *</label>
+              <input type="text" id="name" placeholder="Jan Novák" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon *</label>
+              <input type="tel" id="phone" placeholder="+420 777 000 111" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" placeholder="jan@firma.cz" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Získat nabídku zdarma</button>
+            <p class="form-disclaimer">Neprodáváme vaše údaje. Kontakt jen k nabídce.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1635424825057-7fb6dcd651ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Montér při práci na střeše" class="hero-img">
+      <div class="hero-image-overlay"></div>
+      <div class="hero-image-badge">ČIPERKA</div>
+      <div class="hero-image-caption">
+        <p class="caption-title">Profesionální montáž fotovoltaiky</p>
+        <p class="caption-sub">Pracovní pakety připravené pro vaši instalaci</p>
+      </div>
+    </div>
+
+    <!-- Obsah balíčku -->
+    <section class="section" id="obsah">
+      <div class="container">
+        <span class="section-badge">Obsah balíčku</span>
+        <h2>Co je v pracovním paketu?</h2>
+        <p class="section-desc">Každý balíček obsahuje vše potřebné pro kompletní instalaci FVE systému. Žádné zbytečné dojezdy pro chybějící položky.</p>
+        
+        <div class="package-items">
+          <div class="package-item">
+            <span class="package-icon">🔩</span>
+            <h3>Kotvení / spojovací materiál</h3>
+            <p>Šrouby, kotvy, příchytky a spojovací prvky kompatibilní s hlavními montážními systémy.</p>
+          </div>
+          <div class="package-item">
+            <span class="package-icon">🔌</span>
+            <h3>Kabeláž / konektory</h3>
+            <p>MC4 konektory, solární kabely 4/6 mm², kabelové průchodky a izolace.</p>
+          </div>
+          <div class="package-item">
+            <span class="package-icon">⚡</span>
+            <h3>Uzemnění / ochrany</h3>
+            <p>Zemnící svorky, vodiče uzemnění, přepěťové ochrany třídy I a II.</p>
+          </div>
+          <div class="package-item">
+            <span class="package-icon">📐</span>
+            <h3>Montážní příslušenství</h3>
+            <p>Hliníkové profily, střední a krajní svorky, rohové konzoly.</p>
+          </div>
+          <div class="package-item">
+            <span class="package-icon">🛠️</span>
+            <h3>Spotřební materiál</h3>
+            <p>Těsnicí tmel, pásky, stahovací pásky, štítky a popisné prvky.</p>
+          </div>
+          <div class="package-item">
+            <span class="package-icon">📊</span>
+            <h3>Volitelné doplňky</h3>
+            <p>Monitoring, optimizéry, DC odpojovače nebo rozšířené ochrany.</p>
+          </div>
+        </div>
+        <a href="#kontakt" class="btn btn-primary btn-center">Chci nacenit balíček</a>
+      </div>
+    </section>
+
+    <!-- Varianty balíčků -->
+    <section class="section section-alt">
+      <div class="container">
+        <span class="section-badge">Varianty balíčků</span>
+        <h2>Vyberte vhodnou variantu</h2>
+        <p class="section-desc">Každý balíček lze dále upravit na míru. Cena vždy závisí na konkrétní specifikaci vaší instalace.</p>
+        
+        <div class="pricing-cards">
+          <div class="pricing-card">
+            <h3>Start</h3>
+            <p class="pricing-subtitle">Pro menší instalace rodinných domů</p>
+            <span class="pricing-badge">Vhodné pro: 3–6 kWp</span>
+            <p class="pricing-desc">Vhodné pro živnostníky a menší montážní firmy realizující rodinné domy.</p>
+            <ul>
+              <li>✓ Kotvící a spojovací sada (základní)</li>
+              <li>✓ Kabeláž MC4 + průchodky (10 m)</li>
+              <li>✓ Uzemnění a přepěťová ochrana třídy II</li>
+              <li>✓ Svorky a hliníkové profily (základní)</li>
+              <li>✓ Spotřební materiál pro 1 střechu</li>
+            </ul>
+            <a href="#kontakt" class="btn btn-primary">Chci nabídku →</a>
+          </div>
+
+          <div class="pricing-card featured">
+            <span class="featured-badge">★ Nejčastější volba</span>
+            <h3>Standard</h3>
+            <p class="pricing-subtitle">Pro standardní instalace rodinných domů</p>
+            <span class="pricing-badge">Vhodné pro: 6–12 kWp</span>
+            <p class="pricing-desc">Optimální pro montážní firmy s pravidelným objemem zakázek.</p>
+            <ul>
+              <li>✓ Kotvící a spojovací sada (rozšířená)</li>
+              <li>✓ Kabeláž MC4 + průchodky (20 m)</li>
+              <li>✓ Uzemnění a přepěťová ochrana třídy I+II</li>
+              <li>✓ Svorky, profily a rohové konzoly</li>
+              <li>✓ Spotřební materiál + popisné prvky</li>
+            </ul>
+            <a href="#kontakt" class="btn btn-primary">Chci nabídku →</a>
+          </div>
+
+          <div class="pricing-card">
+            <h3>Pro</h3>
+            <p class="pricing-subtitle">Pro větší a komerční instalace</p>
+            <span class="pricing-badge">Vhodné pro: 12–30+ kWp</span>
+            <p class="pricing-desc">Pro firmy realizující větší komerční projekty nebo více instalací měsíčně.</p>
+            <ul>
+              <li>✓ Kompletní kotvící a spojovací sada</li>
+              <li>✓ Kabeláž MC4 + průchodky (40 m)</li>
+              <li>✓ Uzemnění, ochrany třídy I+II + pojistky</li>
+              <li>✓ Profily, svorky, DC odpojovač</li>
+              <li>✓ Spotřební materiál + monitoring (volitelně)</li>
+            </ul>
+            <a href="#kontakt" class="btn btn-primary">Chci nabídku →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Výhody -->
+    <section class="section" id="vyhody">
+      <div class="container">
+        <span class="section-badge">Výhody</span>
+        <h2>Proč to funguje?</h2>
+        <p class="section-desc">Pracovní pakety šetří čas a nervy. Soustřeďte se na instalaci, <strong>ne na shánění materiálu.</strong></p>
+        
+        <div class="benefits-wrapper">
+        <div class="benefits-list">
+          <div class="benefit-item">
+            <span class="benefit-icon">⏱️</span>
+            <div>
+              <h4>Úspora času na nákupu a kompletaci</h4>
+              <p>Místo hodin strávených výběrem a objednáváním jednotlivých položek máte vše v jednom balíčku.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">✓</span>
+            <div>
+              <h4>Méně chyb a chybějících položek</h4>
+              <p>Každý balíček je sestavený specialisty. Máte jistotu, že nic nechybí.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">📋</span>
+            <div>
+              <h4>Přehledné nacenění</h4>
+              <p>Jasná cena za celý balíček, žádné skryté položky. Víte přesně, za co platíte.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">📄</span>
+            <div>
+              <h4>Jedna objednávka, jedna faktura</h4>
+              <p>Veškerý materiál na jednom dokladu. Minimální administrativa.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">🚚</span>
+            <div>
+              <h4>Dodání na stavbu nebo sklad</h4>
+              <p>Zvolte dodání přímo na staveniště nebo do vašeho skladu.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="how-it-works">
+          <h3>Jak to funguje?</h3>
+          <p>Jednoduché 3 kroky od poptávky po doručení.</p>
+          <div class="steps">
+            <div class="step">
+              <span class="step-num">01</span>
+              <h4>Zadejte poptávku</h4>
+              <p>Vyplňte formulář nebo nás kontaktujte.</p>
+            </div>
+            <div class="step">
+              <span class="step-num">02</span>
+              <h4>Upřesníme detaily</h4>
+              <p>Ozveme se a navrhneme optimální balíček.</p>
+            </div>
+            <div class="step">
+              <span class="step-num">03</span>
+              <h4>Dodáme na místo</h4>
+              <p>Kompletní balíček dorazí dle domluvy.</p>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>24 h</strong><span>Odpověď</span></div>
+            <div class="stat"><strong>500+</strong><span>Instalací</span></div>
+            <div class="stat"><strong>8 let</strong><span>Praxe</span></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kompatibilní výrobci + Reference -->
+    <section class="section section-compact" id="prokoho">
+      <div class="container">
+        <p class="compat-title">Kompatibilní s produkty předních výrobců</p>
+        <div class="brands">
+          <span>SMA Solar</span>
+          <span>Fronius</span>
+          <span>Huawei FusionSolar</span>
+          <span>GoodWe</span>
+          <span>SolarEdge</span>
+          <span>Schletter</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reference -->
+    <section class="section">
+      <div class="container">
+        <span class="section-badge">Reference</span>
+        <h2>Co říkají naši zákazníci?</h2>
+        
+        <div class="testimonials">
+          <div class="testimonial">
+            <span class="quote">"</span>
+            <p>Balíčky nám výrazně zrychlily přípravu každé zakázky. Už nemusíme řešit, jestli máme všechny šrouby a konektory – vše je připravené.</p>
+            <div class="testimonial-author">
+              <strong>Tomáš Kovář</strong>
+              <span>Vedoucí montáží · TK Elektro s.r.o.</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <span class="quote">"</span>
+            <p>Konečně dodavatel, který rozumí potřebám montéra. Rychlá reakce, kvalitní materiál a přehledné balíčky.</p>
+            <div class="testimonial-author">
+              <strong>Petr Blažek</strong>
+              <span>Majitel firmy · Solarfix CZ</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <span class="quote">"</span>
+            <p>Jako živnostník oceňuji rychlost a přehlednost. Objednám balíček a za pár dní mám vše na stavbě.</p>
+            <div class="testimonial-author">
+              <strong>Radek Málek</strong>
+              <span>Certifikovaný montér · OSVČ montér FVE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <span class="section-badge">Časté dotazy</span>
+        <h2>FAQ</h2>
+        
+        <div class="faq">
+          <div class="faq-item">
+            <button class="faq-question">Co přesně je v balíčku?</button>
+            <div class="faq-answer"><p>Každý balíček obsahuje kompletní sadu montážního materiálu pro danou velikost instalace – kotvení, kabeláž, uzemnění, svorky, profily a spotřební materiál. Přesný seznam závisí na zvolené variantě.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Umíte balíček upravit na míru?</button>
+            <div class="faq-answer"><p>Ano, každý balíček lze přizpůsobit konkrétnímu projektu. Stačí popsat vaše požadavky v poptávce.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Jak rychle dodáte?</button>
+            <div class="faq-answer"><p>Standardně dodáváme do 3–5 pracovních dnů. Při urgentních zakázkách lze domluvit expresní dodání.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Jak probíhá nacenění?</button>
+            <div class="faq-answer"><p>Po odeslání poptávky vás kontaktujeme do 24 hodin a připravíme cenovou nabídku na míru vašemu projektu.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Jaké jsou platební podmínky?</button>
+            <div class="faq-answer"><p>Pro B2B zákazníky nabízíme standardní splatnost 14 dní. Pro opakované objednávky lze domluvit individuální podmínky.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Dodáváte i přímo na stavbu?</button>
+            <div class="faq-answer"><p>Ano, dodáváme přímo na staveniště nebo do vašeho skladu. Dopravu řešíme individuálně dle lokality.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Je možné pravidelné zásobování?</button>
+            <div class="faq-answer"><p>Ano, pro montážní firmy s pravidelným objemem nabízíme opakované dodávky a zásobování.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Jaká je záruka na materiál?</button>
+            <div class="faq-answer"><p>Záruka odpovídá záruce výrobců jednotlivých komponent. Používáme pouze ověřené komponenty od renomovaných dodavatelů.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Podporujete i menší jednorázové zakázky?</button>
+            <div class="faq-answer"><p>Ano, nabízíme balíčky i pro menší instalace. Kontaktujte nás s popisem projektu.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Poptávka -->
+    <section class="section section-alt" id="kontakt">
+      <div class="container">
+        <span class="section-badge">Poptávka</span>
+        <h2>Pošlete poptávku – ozveme se do 24 hodin</h2>
+        <p class="section-desc">Vyplňte formulář a my vás kontaktujeme s připravenou nabídkou na míru vašemu projektu.</p>
+        
+        <div class="main-form-card">
+          <form class="main-form">
+            <div class="form-row form-row-full">
+              <div class="form-group">
+                <label for="company">Firma *</label>
+                <input type="text" id="company" placeholder="Název vaší firmy" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullname">Jméno a příjmení *</label>
+                <input type="text" id="fullname" placeholder="Jan Novák" required>
+              </div>
+              <div class="form-group">
+                <label for="tel">Telefon *</label>
+                <input type="tel" id="tel" placeholder="+420 777 000 111" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="mail">E-mail *</label>
+                <input type="email" id="mail" placeholder="jan@firma.cz" required>
+              </div>
+              <div class="form-group">
+                <label for="city">Město / region *</label>
+                <input type="text" id="city" placeholder="Praha, Brno, Ostrava…" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="install-type">Typ instalace *</label>
+                <select id="install-type" required>
+                  <option value="">Vyberte typ…</option>
+                  <option value="rd">Rodinné domy</option>
+                  <option value="komerci">Komerční objekty</option>
+                  <option value="mix">Mix (RD + komerce)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="volume">Odhad instalací měsíčně</label>
+                <select id="volume">
+                  <option value="">Vyberte…</option>
+                  <option value="1-3">1–3 instalace</option>
+                  <option value="4-10">4–10 instalací</option>
+                  <option value="11-30">11–30 instalací</option>
+                  <option value="30+">30+ instalací</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row form-row-full">
+              <div class="form-group">
+                <label for="note">Poznámka</label>
+                <textarea id="note" rows="3" placeholder="Popis projektu, specifikace, dotazy…"></textarea>
+              </div>
+            </div>
+            <div class="form-row form-row-full">
+              <div class="form-group checkbox-group">
+                <input type="checkbox" id="gdpr" required>
+                <label for="gdpr">Souhlasím se <a href="#">zpracováním osobních údajů</a> za účelem zpracování poptávky. *</label>
+              </div>
+            </div>
+            <div class="form-row form-row-full">
+              <button type="submit" class="btn btn-primary btn-full btn-submit">Odeslat poptávku</button>
+              <p class="form-disclaimer">Neprodáváme vaše údaje. Kontakt jen k nabídce.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="sticky-cta">
+    <a href="#kontakt" class="btn btn-primary btn-full">Poptávka zdarma →</a>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-icon">⚡</span>
+          <span>FVEpakety</span>
+        </a>
+        <p>Kompletní pracovní pakety pro profesionální montáž fotovoltaických elektráren.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Kontakt</h4>
+        <p>📞 +420 777 000 111</p>
+        <p>✉️ info@fvepakety.cz</p>
+        <p>📍 Příkladová 123, 110 00 Praha 1</p>
+      </div>
+      <div class="footer-section">
+        <h4>Firemní údaje</h4>
+        <p>FVE Pakety s.r.o.</p>
+        <p>IČO: 12 345 678</p>
+        <p>DIČ: CZ12345678</p>
+        <p>Zapsáno v OR: OR MS Praha, odd. C, vložka 123456</p>
+      </div>
+      <div class="footer-section">
+        <h4>Právní dokumenty</h4>
+        <a href="#">Zásady ochrany osobních údajů (GDPR)</a>
+        <a href="#">Obchodní podmínky</a>
+        <a href="#">Cookies</a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 FVE Pakety s.r.o. Všechna práva vyhrazena.</p>
+        <p>Pracovní pakety pro montáž fotovoltaiky</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
