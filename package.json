@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "prestart": "node scripts/create-config.js",
-    "start": "serve -s . -l $PORT",
+    "start": "serve . -l $PORT",
     "seed:demo": "node scripts/seed-demo-leads.js"
   },
   "dependencies": {
