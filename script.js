@@ -35,10 +35,4 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
   });
 });
 
-// Form submit handlers (prevent default for demo)
-document.querySelectorAll('form').forEach((form) => {
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    alert('Formulář byl odeslán (demo – žádná data se neodesílají).');
-  });
-});
+// Form submit je v forms-submit.js (Supabase)

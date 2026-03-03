@@ -24,6 +24,7 @@
         <a href="#kontakt">Kontakt</a>
       </nav>
       <div class="header-cta">
+        <a href="partner/login.html" class="btn btn-secondary btn-sm" style="margin-right:8px">Partner</a>
         <a href="#kontakt" class="btn btn-primary btn-sm">Chci nabídku</a>
         <button class="menu-btn" aria-label="Menu">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -38,6 +39,7 @@
       <a href="#prokoho">Pro koho</a>
       <a href="#faq">FAQ</a>
       <a href="#kontakt">Kontakt</a>
+      <a href="partner/login.html">Partner</a>
       <a href="#kontakt" class="btn btn-primary">Chci nabídku</a>
     </div>
   </header>
@@ -79,6 +81,10 @@
             <div class="form-group">
               <label for="email">E-mail *</label>
               <input type="email" id="email" placeholder="jan@firma.cz" required>
+            </div>
+            <div class="form-group">
+              <label for="plz-quick">PSČ / PLZ *</label>
+              <input type="text" id="plz-quick" placeholder="např. 80331 (DE)" required maxlength="10" pattern="[0-9\s]+">
             </div>
             <button type="submit" class="btn btn-primary btn-full">Získat nabídku zdarma</button>
             <p class="form-disclaimer">Neprodáváme vaše údaje. Kontakt jen k nabídce.</p>
@@ -401,8 +407,14 @@
                 <input type="email" id="mail" placeholder="jan@firma.cz" required>
               </div>
               <div class="form-group">
+                <label for="plz">PSČ / PLZ *</label>
+                <input type="text" id="plz" placeholder="např. 80331 (DE)" required maxlength="10" pattern="[0-9\s]+">
+              </div>
+            </div>
+            <div class="form-row form-row-full">
+              <div class="form-group">
                 <label for="city">Město / region *</label>
-                <input type="text" id="city" placeholder="Praha, Brno, Ostrava…" required>
+                <input type="text" id="city" placeholder="München, Berlin, Hamburg…" required>
               </div>
             </div>
             <div class="form-row">
@@ -488,5 +500,8 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="forms-submit.js"></script>
 </body>
 </html>

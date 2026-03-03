@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "serve -s . -l $PORT"
+    "prestart": "node scripts/create-config.js",
+    "start": "serve -s . -l $PORT",
+    "seed:demo": "node scripts/seed-demo-leads.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.0",
     "serve": "^14.2.0"
   }
 }

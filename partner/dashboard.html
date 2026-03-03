@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje leady – FVEpakety Partner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .dashboard { padding: 24px; max-width: 900px; margin: 0 auto; }
+    .dashboard-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 32px; }
+    .dashboard-header h1 { font-size: 24px; }
+    .region-badge { background: var(--orange-light); color: var(--orange-dark); padding: 6px 12px; border-radius: 20px; font-weight: 600; font-size: 14px; text-transform: capitalize; }
+    .lead-card { background: white; border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 16px; }
+    .lead-card h3 { font-size: 16px; margin-bottom: 12px; color: var(--text-dark); }
+    .lead-meta { font-size: 13px; color: var(--text-muted); margin-bottom: 12px; }
+    .lead-details { display: grid; gap: 8px; font-size: 14px; color: var(--text-medium); }
+    .lead-details strong { color: var(--text-dark); }
+    .empty-state { text-align: center; padding: 48px 24px; color: var(--text-light); }
+    .empty-state p { margin-bottom: 16px; }
+    .loading { text-align: center; padding: 48px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="dashboard-header">
+      <div>
+        <h1>Moje leady</h1>
+        <span class="region-badge" id="regionBadge">–</span>
+      </div>
+      <div>
+        <a href="login.html" class="btn btn-secondary" id="logoutBtn">Odhlásit se</a>
+      </div>
+    </div>
+    <div id="leadsContainer">
+      <div class="loading" id="loading">Načítám leady…</div>
+      <div id="leadsList"></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="../supabase-config.js"></script>
+  <script src="partner-auth.js"></script>
+  <script src="partner-dashboard.js"></script>
+</body>
+</html>
